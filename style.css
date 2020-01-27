@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(111, 89, 145);
+    margin: 0;
+     /*this ^ gets rid of body border!  */
+}
+
+#navbar {
+    background-color: burlywood;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    border-bottom: green;
+    border-width: 5px;
+}
+
+h1 {
+    font-family: monospace;
+    margin-left: 9px;
+}
+
+a {
+    width: 160px;
+    height: 40px;
+    background-color: rgb(62, 112, 163);
+    float: right;
+    margin-top: 9px;
+    margin-right: 9px;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+}
+
+.button2 {
+    width: 382px;
+    height: 40px;
+    background-color: rgb(62, 112, 163);
+    float: center;
+    margin-top: 9px;
+    margin-left: 9px;
+    border-radius: 10px;
+    color: white;
+    border-width: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#regWindow {
+    background-color: burlywood;
+    border-style: solid;
+    margin-top: 200px;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    float: center;
+    border-radius: 5px;
+}
+
+.field {
+    height: 60px;
+    width: 378px;
+    left: 9px;
+    margin-top: 9px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    float: center;
+    text-align: center;
+    font-weight: bold;
+    text-emphasis: Bold; /*what the hell is this?*/
+}
+
+.social-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#social a {
+    text-decoration: none;
+    /* hides the little icons and shit */
+}
